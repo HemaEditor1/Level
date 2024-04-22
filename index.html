@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/logo.png">
+    <title>Level</title>
+</head>
+
+<body>
+    <!------ MAIN MENU ---->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/img/logo.png" alt="site logo">
+                <h1 class="logo-text">Level</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="level-nav-link nav-link active" aria-current="page" href="#Search">Search</a>
+                    <a class="level-nav-link nav-link" href="#Surveces">Surveces</a>
+                    <a class="level-nav-link nav-link" href="#Recommeds">Recommends</a>
+                    <a class="level-nav-link nav-link" href="#Contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!------ SEARCH FORM ---->
+    <div class="hero" id="Search">
+        <div class="container">
+            <form action="index.html" method="get" class="search-form">
+                <div class="form-group" style="flex: 100%;">
+                    <i class="fa fa-map-marker"></i>
+                    <input type="text" name="city" placeholder="Type your destination..." class="form-control">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input type="text" class="form-control" id="inputCheckIn" placeholder="Check In">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-calendar"></i>
+                    <input type="text" class="form-control" id="InputCheckOut" placeholder="Check Out">
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-bed"></i>
+                    <select class="form-control">
+                        <option value="">Rooms</option>
+                        <option value="">Room 1</option>
+                        <option value="">Room 2</option>
+                        <option value="">Room 3</option>
+                        <option value="">Room 4</option>
+                        <option value="">Room 5</option>
+                        <option value="">Room 6</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-user"></i>
+                    <select class="form-control">
+                        <option value="">Adults</option>
+                        <option value="">Adult 1</option>
+                        <option value="">Adult 2</option>
+                        <option value="">Adult 3</option>
+                        <option value="">Adult 4</option>
+                        <option value="">Adult 5</option>
+                        <option value="">Adult 6</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <i class="fa fa-child"></i>
+                    <select class="form-control">
+                        <option value="">Children Rooms</option>
+                        <option value="">Room 1</option>
+                        <option value="">Room 2</option>
+                        <option value="">Room 3</option>
+                        <option value="">Room 4</option>
+                        <option value="">Room 5</option>
+                        <option value="">Room 6</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary">Check</button>
+                </div>
+            </form>
+
+            <p class="need-help">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, voluptatum?
+                <span>
+                    <a href="#">Need Help</a>
+                </span>
+
+            </p>
+        </div>
+    </div>
+
+    <!------ SUBSCRIBE ---->
+    <section class="section-color">
+        <div class="container text-center">
+            <h2 class="section-title">We are here to help you!</h2>
+            <p class="section-subtitle">Subscribe to get our news</p>
+            <a href="#" class="btn btn-white">Subscribe</a>
+        </div>
+    </section>
+
+    <!------ SURVECES ---->
+    <section id="Surveces">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"
+            class="section-down-arrow">
+            <polygon fill="var(--color-primary)" points="0,0  100,0  50,50"></polygon>
+        </svg>
+
+        <div class="container">
+            <div class="row">
+
+                <article class="article col-lg-4">
+                    <i class="fa fa-legal article-icon"></i>
+                    <h3 class="article-title">Level HTML Template by Tooplate website</h3>
+                    <p>You are allowed to download, edit and use this template for your business or client websites.</p>
+                    <a href="#" class="btn btn-primary btn-fit">Continue reading</a>
+                </article>
+
+                <article class="article col-lg-4">
+                    <i class="fa fa-plane article-icon"></i>
+                    <h3 class="article-title">Original Website Template Producer</h3>
+                    <p>You are NOT allowed to re-distribute the downloadable template ZIP file on any website.</p>
+                    <a href="" class="btn btn-primary btn-fit">Continue reading</a>
+                </article>
+
+                <article class="article col-lg-4">
+                    <i class="fa fa-phone article-icon"></i>
+                    <h3 class="article-title">Contact us if you have any question</h3>
+                    <p>If you see this template being distributed on any other site, that is an illegal copy.</p>
+                    <a href="" class="btn btn-primary btn-fit">Continue reading</a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!------ SLIDER ---->
+    <section class="section-gray" id="Recommeds">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+
+                    <div class="level-slider">
+                        <article class="level-slider-item">
+                            <img src="assets/img/img-02.jpg" alt="">
+                            <div class="level-slider-item-container">
+                                <h3>Nunc in felis aliquet metus luctus iaculis</h3>
+                                <p>Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla. Nullam sollicitudin at
+                                    augue venenatis eleifend.
+                                    sitamet ligula.</p>
+                                <a href="" class="btn-fit-2">View Detail</a>
+                            </div>
+                        </article>
+
+                        <article class="level-slider-item">
+                            <img src="assets/img/img-01.jpg" alt="">
+                            <div class="level-slider-item-container">
+                                <h3>Sed cursus dictum nunc quis molestie</h3>
+                                <p>Pellentesque quis dui sit amet purus scelerisque eleifend sed ut eros. Morbi viverra
+                                    blandit massa in varius. Sed nec ex eu ex tincidunt iaculis. Curabitur eget turpis
+                                    gravida.</p>
+                                <a href="" class="btn-fit-2">View Detail</a>
+                            </div>
+                        </article>
+
+                        <article class="level-slider-item">
+                            <img src="assets/img/img-02.jpg" alt="">
+                            <div class="level-slider-item-container">
+                                <h3>Eget diam pellentesque interdum ut porta</h3>
+                                <p>Aenean finibus tempor nulla, et maximus nibh dapibus ac. Duis consequat sed sapien
+                                    venenatis consequat. Aliquam ac lacus volutpat, dictum risus at, scelerisque nulla.
+                                </p>
+                                <a href="" class="btn-fit-2">View Detail</a>
+                            </div>
+                        </article>
+
+                        <article class="level-slider-item">
+                            <img src="assets/img/img-01.jpg" alt="">
+                            <div class="level-slider-item-container">
+                                <h3>Lorem ipsum dolor sit amet, consectetur</h3>
+                                <p>Suspendisse molestie sed dui eget faucibus. Duis accumsan sagittis tortor in
+                                    ultrices.
+                                    Praesent tortor ante, fermentum commodo nulla.</p>
+                                <a href="" class="btn-fit-2">View Detail</a>
+                            </div>
+                        </article>
+
+                        <article class="level-slider-item">
+                            <img src="assets/img/img-02.jpg" alt="">
+                            <div class="level-slider-item-container">
+                                <h3>Orci varius natoque penatibus et sollicitudin</h3>
+                                <p>Children who are dui should love pure chocolate. The cartoon of the
+                                    disease flatters the masses in the casino. I need a high school pregnancy.</p>
+                                <a href="" class="btn-fit-2">View Detail</a>
+                            </div>
+                        </article>
+
+                        <article class="level-slider-item">
+                            <img src="assets/img/img-01.jpg" alt="">
+                            <div class="level-slider-item-container">
+                                <h3>Don't worry about your home</h3>
+                                <p>There is no limit to the time of Aenean, and the maximum speed is The result of the
+                                    house
+                                    but the wisdom of the poison. but
+                                    there is no chocolate.</p>
+                                <a href="" class="btn-fit-2">View Detail</a>
+                            </div>
+                        </article>
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="star-places">
+
+                        <div class="star-places-header">
+                            <h3>Recommended Places</h3>
+                            <p>Places that we are racommend for you</p>
+                        </div>
+
+                        <div class="star-places-body">
+
+                            <a href="">
+                                <img src="assets/img/tn-img-01.jpg" alt="place image">
+                                <h4>Europe</h4>
+                            </a>
+
+                            <a href="">
+                                <img src="assets/img/tn-img-02.jpg" alt="place image">
+                                <h4>Asia</h4>
+                            </a>
+
+                            <a href="">
+                                <img src="assets/img/tn-img-03.jpg" alt="place image">
+                                <h4>Africa</h4>
+                            </a>
+
+                            <a href="">
+                                <img src="assets/img/tn-img-04.jpg" alt="place image">
+                                <h4>America</h4>
+                            </a>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!------ VIDEO ---->
+    <secction class="video">
+        <div class="video-overlay">
+            <i class="fa fa-play-circle video-control-play" title="Play"></i>
+            <i class="fa fa-pause-circle video-control-pause" title="Pause"></i>
+        </div>
+        <div class="video-container">
+            <video class="level-video">
+                <source src="assets/Video/video.mp4" type="video/mp4">
+                Your browser does not support this video 'LAG'
+            </video>
+        </div>
+    </secction>
+
+    <!------ CONTACT ---->
+    <section id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="map-container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d110502.6118508441!2d31.340866204834995!3d30.059611342983867!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2z2KfZhNmC2KfZh9ix2KnYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1713616444557!5m2!1sar!2seg"
+                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <form action="" class="contact-form">
+
+                        <div class="form-group">
+                            <input type="text" name="" id="" class="form-control" required placeholder="Name..">
+                            <i class="fa fa-user"></i>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" name="" id="" class="form-control" required placeholder="Email..">
+                            <i class="fa fa-envelope"></i>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="text" name="" id="" class="form-control" required placeholder="Subjct..">
+                            <i class="fa fa-book"></i>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea type="text" name="" id="" class="form-control" rows="6" required
+                                placeholder="Message.."></textarea>
+                            <i class="fa fa-commenting"></i>
+                        </div>
+
+                        <button type="submit" class="btn-primary">Send Message Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>Copyright &copy; 2024 Level Website Project
+            <p>Design by:
+                <a rel="nofollow" href="https://www.instagram.com/_ibrahem_magdy_/" target="_blank">Ibrahem Magdy</a>
+            </p>
+            </p>
+
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
